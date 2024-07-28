@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mplsoccer import Pitch
 
 # Create a pitch
-pitch = Pitch(pitch_type="statsbomb", goal_type="box")
+pitch = Pitch(pitch_type="statsbomb", goal_type="box",corner_arcs=True)
 fig, ax = pitch.draw()
 
 # Optionally, add some data points or annotations
