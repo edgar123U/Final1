@@ -9,8 +9,6 @@ fig, ax = pitch.draw()
 # Optionally, add some data points or annotations
 ax.scatter([20, 50, 80,20], [30, 50, 70,40], color='red', s=100, label='Sample Points')
 
-# Add a legend
-ax.legend(loc='upper right')
 
 # Display the pitch in Streamlit
 st.pyplot(fig)
